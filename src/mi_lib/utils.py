@@ -1,10 +1,3 @@
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.application import MIMEApplication
-from email.mime.text import MIMEText
-from datetime import timedelta, date
-import os
-
 def send_email(to, subject, file_names, body, email_address, email_app_password):
 
     # create email
